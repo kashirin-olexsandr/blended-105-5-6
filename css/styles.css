@@ -56,6 +56,8 @@ img {
   font-size: 35px;
   line-height: 1.2;
   color: #28a745;
+  display: flex;
+  align-items: center;
 }
 .header-logo-type {
   color: #fff;
@@ -73,6 +75,44 @@ img {
   font-size: 18px;
   line-height: 1.56444;
   color: #fff;
+}
+
+.hero {
+  padding: 280px 0;
+  text-align: center;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero-header {
+  margin-bottom: 24px;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 66px;
+  color: #e9e9e9;
+}
+
+.hero-paragraph {
+  margin-bottom: 32px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 37px;
+  color: #e9e9e9;
+}
+
+.button-hero {
+  width: 165px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #28a745;
+  border: none;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 /* ========= /Header styles =========*/
